@@ -1,20 +1,87 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      Buyie
     </ion-title>
+    
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
+      <img class="images" src="./assets/icon/logo1.png"/>
+      <ion-button>Become A a</ion-button>
     </ion-toolbar>
   </ion-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+
+  <ion-button>
+    <ion-icon slot="start" name="car"></ion-icon>
+    Cars
+  </ion-button>
+  <ion-button>
+    <ion-icon slot="start" name="home"></ion-icon>
+    Houses
+  </ion-button>
+  <ion-button>
+    <ion-icon slot="start" name="bicycle"></ion-icon>
+    Bikes
+  </ion-button>
+  <ion-button>
+    <ion-icon slot="start" name="bed-outline"></ion-icon>
+   Furniture
+  </ion-button>
+  
+  <ion-button>
+    <ion-icon slot="start" name="game-controller-outline"></ion-icon>
+   Console & Games
+  </ion-button>
+
+ <h4> <center>This for sale in your area</center></h4> 
+
+ 
+ <ion-card>
+  <ion-card-header>
+    <img class="images" src="./assets/icon/one.jpeg"/>
+    <ion-card-subtitle color="danger" >€50</ion-card-subtitle>
+    <ion-card-title>Mountain Bike</ion-card-title>
+    <ion-text  >
+      <p> Good condition, great for all surfaces, reason for selling...</p>
+    </ion-text>
+    <ion-button>Buy Now</ion-button>
+  </ion-card-header>
+</ion-card>
+<ion-card>
+  <ion-card-header>
+    <img class="images" src="./assets/icon/two.jpeg"/>
+    <ion-card-subtitle color="danger">€1,500</ion-card-subtitle>
+    <ion-card-title>06 Audi A3</ion-card-title>
+    <ion-text  >
+      <p> All working fine, new timing belt installed, need it gone today...</p>
+    </ion-text>
+    <ion-button>Buy Now</ion-button>
+  </ion-card-header>
+</ion-card>
+
+<ion-card>
+  <ion-card-header>
+    <ion-badge color="danger">Advertisement</ion-badge>
+
+    <img class="images" src="./assets/icon/three.jpeg"/>
+    <ion-card-subtitle color="danger">€30</ion-card-subtitle>
+    <ion-card-title>Mirror</ion-card-title>
+    <ion-text  >
+      <p>Brand New, unwanted gift, will take offers...</p>
+    </ion-text>
+    <ion-button>Buy Now</ion-button>
+  </ion-card-header>
+</ion-card>
+
+
+
+
+
+
+
 </ion-content>
