@@ -3,7 +3,7 @@
     <ion-title>
       Buyie
     </ion-title>
-    
+   
   </ion-toolbar>
 </ion-header>
 
@@ -11,9 +11,24 @@
   <ion-header collapse="condense">
     <ion-toolbar>
       <img class="images" src="./assets/icon/logo1.png"/>
-      <ion-button>Become A a</ion-button>
+      <br>
+     
+      <ion-button color="secondary" routerLink="/log-in" routerDirection="forward">
+        Login
+      </ion-button>
+
+      <ion-button color="secondary" routerLink="/create-listing" routerDirection="forward">
+        Create a Listing
+      </ion-button>
     </ion-toolbar>
   </ion-header>
+
+
+
+<!-- Animated Searchbar -->
+<ion-searchbar showCancelButton="focus" color="secondary" animated></ion-searchbar>
+
+
 
 
   <ion-button>
@@ -21,26 +36,44 @@
     Cars
   </ion-button>
   <ion-button>
-    <ion-icon slot="start" name="home"></ion-icon>
-    Houses
+    <ion-icon slot="start" name="barbell"></ion-icon>
+    Sports
   </ion-button>
   <ion-button>
     <ion-icon slot="start" name="bicycle"></ion-icon>
     Bikes
   </ion-button>
   <ion-button>
-    <ion-icon slot="start" name="bed-outline"></ion-icon>
+    <ion-icon slot="start" name="bed"></ion-icon>
    Furniture
   </ion-button>
   
   <ion-button>
-    <ion-icon slot="start" name="game-controller-outline"></ion-icon>
+    <ion-icon slot="start" name="game-controller"></ion-icon>
    Console & Games
   </ion-button>
 
  <h4> <center>This for sale in your area</center></h4> 
+ <ion-grid>
+  <ion-row>
+    <ion-col>
+      <div>
+       
+      </div>
+    </ion-col>
+    <ion-col>
+      <div>
+        <ion-badge color="primary">Galway</ion-badge>
+      </div>
+    </ion-col>
+    <ion-col>
+      <div>
+       
+      </div>
+    </ion-col>
+  </ion-row>
+</ion-grid>
 
- 
  <ion-card>
   <ion-card-header>
     <img class="images" src="./assets/icon/one.jpeg"/>
@@ -49,7 +82,9 @@
     <ion-text  >
       <p> Good condition, great for all surfaces, reason for selling...</p>
     </ion-text>
-    <ion-button>Buy Now</ion-button>
+    <ion-button color="primary" routerLink="/log-in" routerDirection="forward">
+      Buy Now
+    </ion-button>
   </ion-card-header>
 </ion-card>
 <ion-card>
@@ -60,7 +95,9 @@
     <ion-text  >
       <p> All working fine, new timing belt installed, need it gone today...</p>
     </ion-text>
-    <ion-button>Buy Now</ion-button>
+    <ion-button color="primary" routerLink="/log-in" routerDirection="forward">
+      Buy Now
+    </ion-button>
   </ion-card-header>
 </ion-card>
 
@@ -74,14 +111,26 @@
     <ion-text  >
       <p>Brand New, unwanted gift, will take offers...</p>
     </ion-text>
-    <ion-button>Buy Now</ion-button>
+    <ion-button color="primary" routerLink="/log-in" routerDirection="forward">
+      Buy Now
+    </ion-button>
   </ion-card-header>
 </ion-card>
 
-
-
-
-
-
-
+<ion-card>
+  <ion-card-header>
+    <img class="images" src="./assets/icon/Four.jpeg"/>
+    <ion-card-subtitle color="danger">€5,250</ion-card-subtitle>
+    <ion-card-title>Jetski 1100 STX Kawasaki</ion-card-title>
+    <ion-text  >
+      <p> Jetski for sale
+        going perfect
+        94 hours
+        Trailer included</p>
+    </ion-text>
+    <ion-button color="primary" routerLink="/log-in" routerDirection="forward">
+      Buy Now
+    </ion-button>
+  </ion-card-header>
+</ion-card>
 </ion-content>

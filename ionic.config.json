@@ -1,5 +1,7 @@
 {
   "name": "Buyie-app",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

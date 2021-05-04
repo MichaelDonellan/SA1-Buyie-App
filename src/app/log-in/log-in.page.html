@@ -1,0 +1,49 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Buyie
+    </ion-title><ion-header>
+      <ion-toolbar>
+        <ion-buttons slot="start">
+          <ion-back-button></ion-back-button>
+        </ion-buttons>
+      </ion-toolbar>
+    </ion-header>
+    
+    
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <img class="images" src="./assets/icon/logo1.png"/>
+      
+    </ion-toolbar>
+  </ion-header>
+<ion-content>
+
+<ion-card>
+
+  <ion-card-content>
+    <ion-item>
+      <ion-label color = "primary" position="floating">Username</ion-label>
+      <ion-input></ion-input>
+    </ion-item>
+    
+    <ion-item>
+      <ion-label color = "primary" position="floating">Password</ion-label>
+      <ion-input type="password"></ion-input>
+    </ion-item>
+  <BR>
+  <ion-button expand="full" color="secondary" routerLink="/home" routerDirection="forward">
+    Login
+  </ion-button>
+  <br>
+  <ion-label  routerLink="/register" routerDirection="forward" color="tertiary"  ><center> I don't have a account yet! </center></ion-label>  
+  </ion-card-content>
+</ion-card>
+
+
+
+</ion-content>

@@ -1,0 +1,34 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Create a Listing</ion-title>
+  </ion-toolbar>
+  
+ 
+</ion-header>
+
+<ion-content>
+  <ion-item>
+    <ion-label size="large" position="stacked"><center>New Listing</center> </ion-label>
+
+    <ion-button >Upload Images</ion-button>
+
+    <ion-input placeholder="Title"></ion-input>
+    <br>
+    <ion-textarea placeholder="Type Description Here..."></ion-textarea>
+    <br>
+    <ion-input type="number"placeholder="Price €"></ion-input>
+    <br>
+    <ion-input placeholder="Condition"></ion-input>
+    <br>
+    <ion-input placeholder="Blank"></ion-input>
+    
+  </ion-item>
+  <ion-button color="secondary" expand="full" routerLink="/home" routerDirection="forward">
+    Create a Listing
+  </ion-button>
+
+
+</ion-content>

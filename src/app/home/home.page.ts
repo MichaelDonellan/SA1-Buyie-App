@@ -6,7 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
-
+ test: any
   constructor() {}
 
+
+  GoToLogin(){
+this.test = "tEST";
+
+  }
 }
