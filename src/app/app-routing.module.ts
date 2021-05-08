@@ -23,6 +23,34 @@ const routes: Routes = [
     path: 'register',
     loadChildren: () => import('./register/register.module').then( m => m.RegisterPageModule)
   },
+  {
+    path: 'cars',
+    loadChildren: () => import('./cars/cars.module').then( m => m.CarsPageModule)
+  },
+  {
+    path: 'sports',
+    loadChildren: () => import('./sports/sports.module').then( m => m.SportsPageModule)
+  },
+  {
+    path: 'bikes',
+    loadChildren: () => import('./bikes/bikes.module').then( m => m.BikesPageModule)
+  },
+  {
+    path: 'furniture',
+    loadChildren: () => import('./furniture/furniture.module').then( m => m.FurniturePageModule)
+  },
+  {
+    path: 'gaming',
+    loadChildren: () => import('./gaming/gaming.module').then( m => m.GamingPageModule)
+  },
+  {
+    path: 'view-listing',
+    loadChildren: () => import('./view-listing/view-listing.module').then( m => m.ViewListingPageModule)
+  },
+  {
+    path: 'services',
+    loadChildren: () => import('./services/services.module').then( m => m.ServicesPageModule)
+  },
 ];
 
 @NgModule({
