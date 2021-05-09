@@ -10,14 +10,14 @@ export class HomePage implements OnInit {
   constructor(private locdata:ServicesPage) {}
 
 ngOnInit(){
-  this.locdata.GetLocData().subscribe(
-    (data)=>{
+   this.locdata.GetLocData().subscribe(
+   (data)=>{
 this.LocatData = data.city;
 console.log(this.LocatData);
 
 
     }
-  );
+ );
 }
 
 

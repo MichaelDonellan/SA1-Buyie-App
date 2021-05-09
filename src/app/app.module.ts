@@ -9,6 +9,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { ImagePicker } from '@ionic-native/image-picker/ngx';
 import {HttpClientModule} from '@angular/common/http';
 
+
 @NgModule({
   declarations: [AppComponent],
   entryComponents: [],
