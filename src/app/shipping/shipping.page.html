@@ -1,0 +1,63 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>
+     Shipping
+    </ion-title><ion-header>   
+    </ion-header>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+ 
+  <ion-radio-group allow-empty-selection value="anchovies">
+    <ion-list-header>
+      <ion-label>Ship with us</ion-label>
+    </ion-list-header>
+    <ion-item>
+      <ion-label>Gold Shipping</ion-label>
+      <ion-radio slot="end" color="primary" value="Gold Shipping"></ion-radio>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Standard Shipping</ion-label>
+      <ion-radio slot="end" color="secondary" value="Standard Shipping"></ion-radio>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Street Driver</ion-label>
+      <ion-radio slot="end" color="tertiary" value="Street Driver"></ion-radio>
+    </ion-item>
+    
+    <ion-list-header>
+      <ion-label>Collect it myself</ion-label>
+    </ion-list-header>
+    <ion-item>
+      <ion-label>I have a driver</ion-label>
+      <ion-radio slot="end" color="success" value="tomato"></ion-radio>
+    </ion-item>
+ </ion-radio-group>
+ <ion-grid>
+  <ion-row>
+    <ion-col>
+      <div>
+       
+      </div>
+    </ion-col>
+    <ion-col>
+      <div>
+        <ion-button>Confirm</ion-button>
+      </div>
+    </ion-col>
+    <ion-col>
+      <div>
+       
+      </div>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+ 
+
+</ion-content>

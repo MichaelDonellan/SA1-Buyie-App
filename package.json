@@ -21,6 +21,7 @@
     "@angular/router": "~11.2.0",
     "@ionic-native/core": "^5.32.1",
     "@ionic-native/image-picker": "^5.32.1",
+    "@ionic-native/shop-checkout": "^5.32.1",
     "@ionic/angular": "^5.5.2",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
@@ -43,6 +44,7 @@
     "@types/node": "^12.11.1",
     "@typescript-eslint/eslint-plugin": "4.16.1",
     "@typescript-eslint/parser": "4.16.1",
+    "cordova-plugin-shop-checkout": "^0.1.3",
     "cordova-plugin-telerik-imagepicker": "^2.3.6",
     "eslint": "^7.6.0",
     "eslint-plugin-import": "2.22.1",
@@ -63,7 +65,8 @@
   "description": "An Ionic project",
   "cordova": {
     "plugins": {
-      "cordova-plugin-telerik-imagepicker": {}
+      "cordova-plugin-telerik-imagepicker": {},
+      "cordova-plugin-shop-checkout": {}
     }
   }
 }
